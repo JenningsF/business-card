@@ -1,4 +1,5 @@
 import React from "react";
+import { FaEnvelope } from "react-icons/fa";
 
 function Info() {
 	return (
@@ -6,16 +7,8 @@ function Info() {
 			<h1>Jennings Fairchild</h1>
 			<h3>Software Engineer in Training</h3>
 			<button>
+				<FaEnvelope />
 				<a href="mailto:jenningsf@protonmail.com">Email</a>
-			</button>
-			<button>
-				<a
-					href="https://www.linkedin.com/in/jenningsf/"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					LinkedIn
-				</a>
 			</button>
 		</section>
 	);
