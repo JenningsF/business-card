@@ -1,31 +1,31 @@
 import React from "react";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+import { Linkedin } from "react-feather";
+import { Twitter } from "react-feather";
+import { GitHub } from "react-feather";
 
 function Footer() {
 	return (
-		<section>
-			<a
+		<section className="Footer">
+			<a className="Social-icon"
 				href="https://www.linkedin.com/in/jenningsf/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<FaLinkedinIn />
+				<Linkedin />
 			</a>
-			<a
+			<a className="Social-icon"
 				href="https://www.twitter.com/jenningsf_dev/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<FaTwitter />
+				<Twitter />
 			</a>
-			<a
+			<a className="Social-icon"
 				href="https://www.github.com/jenningsf/"
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<FaGithub />
+				<GitHub />
 			</a>
 		</section>
 	);
